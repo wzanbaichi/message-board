@@ -1,0 +1,49 @@
+.inputInfo {
+    width: 15rem;
+    background-color: #F5F5F5;
+    margin: 1.5rem;
+    border-radius: .3rem;
+    border: 2px solid #e2e2e2;
+    float: left;
+    /*margin: 1rem auto;*/
+}
+.inputInfo .row {
+    font-size: 20px;
+    width: 12rem;
+    margin: 0 auto;
+    text-align: left;
+}
+.inputInfo .row:nth-child(4){
+    margin-bottom: .3rem;
+}
+.inputInfo h3 {
+    font-weight: normal;
+}
+.inputInfo label {
+    font-size: .6rem;
+    font-weight: bold;
+}
+.inputInfo input {
+    border-radius: .3rem;
+    border: 1px solid #e2e2e2;
+    height: 2rem;
+    width: inherit;
+    margin-top: 1rem;
+}
+.commentTxt {
+    border-radius: .3rem;
+    border: 1px solid #e2e2e2;
+    height: 4rem;
+    width: inherit;
+    margin-top: 1rem;
+    font-family: Arial;
+    resize: none;
+    padding: 0;
+}
+.inputInfo button {
+    background-color: #3c73b4;
+    border: 1px solid #e2e2e2;
+    height: 2rem;
+    border-radius: .3rem;
+    color: white;
+}

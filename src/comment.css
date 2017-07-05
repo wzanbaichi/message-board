@@ -1,0 +1,54 @@
+.comment {
+    width: 30rem;
+    /*max-height: 20em;*/
+    margin: 1.5rem;
+    margin-left: 19rem;
+    margin-bottom: 2rem;
+    border: 2px solid #e2e2e2;
+    border-radius: .3rem;
+    overflow: hidden;
+    /*float: left;*/
+}
+.comment ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.comment ul li {
+    border-bottom: 1px solid #e2e2e2;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.comment ul li:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.comment h3{
+    position: relative;
+    text-align: left;
+    font-weight: normal;
+    padding: 1rem;
+    margin: 0;
+    border-bottom: 2px solid #e2e2e2;
+    z-index: 9999;
+    background-color: white;
+}
+.comment>ul li p:nth-child(1){
+    font-size: .7rem;
+}
+.comment>ul li p:nth-child(2){
+    font-size: .8rem;
+}
+.comment>ul li span {
+    float: right;
+}
+.comment button {
+    float: right;
+    margin-bottom: .5rem;
+    border: none;
+    padding: .3rem .5rem;
+    border-radius: .3rem;
+    outline-color: black;
+}
